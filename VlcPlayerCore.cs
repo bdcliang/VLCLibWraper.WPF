@@ -227,6 +227,10 @@ namespace LibVlcWraper.WPF
             UISync.Init(hwnd);
             SetHwnd(hwnd.Handle);
         }
+        public string GetVersion()
+        {
+            return LibVlcMethods.libvlc_get_version();
+        }
         /// <summary>
         /// 主线程更新UI
         /// </summary>

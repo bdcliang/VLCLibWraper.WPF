@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibVlcWraper.WPF", "LibVlcW
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{3150E8FF-5A03-403D-AD0A-C7AD25B61374}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InformationClient", "..\..\..\..\..\..\公司项目汇总\公司项目2019\软件\workspace\平江路展馆\InformationClient\InformationClient\InformationClient.csproj", "{E30D0678-BA2E-402C-B499-501162A55F93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3150E8FF-5A03-403D-AD0A-C7AD25B61374}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3150E8FF-5A03-403D-AD0A-C7AD25B61374}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3150E8FF-5A03-403D-AD0A-C7AD25B61374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E30D0678-BA2E-402C-B499-501162A55F93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E30D0678-BA2E-402C-B499-501162A55F93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E30D0678-BA2E-402C-B499-501162A55F93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E30D0678-BA2E-402C-B499-501162A55F93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

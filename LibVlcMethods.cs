@@ -40,7 +40,7 @@ namespace LibVlcWraper.WPF
         public static extern void libvlc_set_user_agent(IntPtr p_instance, [MarshalAs(UnmanagedType.LPArray)] byte[] name, [MarshalAs(UnmanagedType.LPArray)] byte[] http);
 
         [DllImport("libvlc", CallingConvention = CallingConvention.Cdecl)]
-        public static extern IntPtr libvlc_get_version();
+        public static extern string libvlc_get_version();
 
         [DllImport("libvlc", CallingConvention = CallingConvention.Cdecl)]
         public static extern IntPtr libvlc_get_compiler();

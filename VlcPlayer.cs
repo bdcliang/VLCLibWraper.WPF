@@ -11,11 +11,12 @@ namespace LibVlcWraper.WPF
 {
     public class VlcPlayer: System.Windows.Controls.Image
     {
-        private VlcPlayerCore player = new VlcPlayerCore(true);
+        private VlcPlayerCore player = null;
         public VlcPlayer()
         {
             if (!System.ComponentModel.DesignerProperties.GetIsInDesignMode(this))
             {
+                player = new VlcPlayerCore(true);
                 player.OnFrameReceived += Player_OnFrameReceived;
             }
 

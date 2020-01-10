@@ -24,6 +24,7 @@ namespace WpfApp1
         {
             InitializeComponent();
             videoplayer.MediaPlayer.Open(@"C:\Users\Administrator.Delphi-PC\Videos\suzhou.mp4");
+            Console.WriteLine(videoplayer.MediaPlayer.GetVersion());
         }
 
         private void Opencmd_Click(object sender, RoutedEventArgs e)
